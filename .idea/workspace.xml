@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="" />
+    <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="Initial commit (utils)" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/CubicLimit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -181,7 +181,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1215" />
     <option name="y" value="40" />
     <option name="width" value="1830" />
@@ -216,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537872653856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537873929619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/core.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -270,7 +270,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537273038668</updated>
       <workItem from="1537273041931" duration="10328000" />
-      <workItem from="1537871374170" duration="1244000" />
+      <workItem from="1537871374170" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit (utils)">
       <created>1537871841474</created>
@@ -297,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11572000" />
+    <option name="totallyTimeSpent" value="12445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -348,7 +348,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Transformation_3.java</url>
-          <line>44</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -462,7 +462,7 @@
     <entry file="file://$PROJECT_DIR$/src/CubicLimit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>

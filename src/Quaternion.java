@@ -49,7 +49,12 @@ public class Quaternion {
 	 * Perform the multiplication of two quaternions
 	 */
 	static Quaternion multiply(Quaternion q1, Quaternion q2) {
-		throw new Error("to be completed: TD1");
+		return new Quaternion(
+				q1.w * q2.w - q1.x*q2.x - q1.y*q2.y - q1.z * q2.z,
+				q1.w * q2.x + q1.x*q2.w + q1.y*q2.z - q1.z * q2.y,
+				q1.w * q2.y - q1.x*q2.z + q1.y*q2.w + q1.z * q2.x,
+				q1.w * q2.z + q1.x*q2.y - q1.y*q2.x + q1.z * q2.w
+		);
 	}
 
 	/**
@@ -59,7 +64,15 @@ public class Quaternion {
 	 * @return  a vector of floats (with 4 components)
 	 */
 	float[] getValue() {
-		throw new Error("to be completed: TD1");
+		float myTheta = (float) Math.acos(this.w) * 2;
+		float mySinTheta = (float) Math.sin(myTheta / 2);
+		float[] myFloat = {
+				myTheta,
+				this.x / mySinTheta,
+				this.y / mySinTheta,
+				this.z / mySinTheta
+		};
+		return myFloat;
 	}
 
 }
