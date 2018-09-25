@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdjacencyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/AdjacencyGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArcBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/ArcBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CubicLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/CubicLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Draw3DCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Draw3DCube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Point_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Point_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point_d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Point_d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quaternion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Quaternion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rotating3DCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Rotating3DCube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transformation_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Transformation_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transformation_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Transformation_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vec3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Vec3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Vector_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Vector_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector_d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/Vector_d.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,32 +24,32 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="45" />
+          <entry key="java" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1144" />
-          <entry key="txt" value="125" />
+          <entry key="txt" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1144" />
-          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="PLAIN_TEXT" value="249" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD1/Rotating3DCube.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
@@ -75,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD2/Draw.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TD2/Transformation_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="113">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -226,7 +209,7 @@
               <item name="TD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TD1" type="462c0819:PsiDirectoryNode" />
+              <item name="TD2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TD" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537883031418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537883158153" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/core.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -296,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537273038668</updated>
       <workItem from="1537273041931" duration="10328000" />
-      <workItem from="1537871374170" duration="3266000" />
+      <workItem from="1537871374170" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit (utils)">
       <created>1537871841474</created>
@@ -326,11 +309,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537874036434</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TD 2 data - Curve interpolation&#10;&#10;Add TD2 data&#10;Reorganize project into different packages for each TD">
+      <created>1537883113509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537883113509</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Reorganize project into different packages for each TD">
+      <created>1537883152294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537883152294</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13594000" />
+    <option name="totallyTimeSpent" value="13851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -349,7 +346,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32740214" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.34875444" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.34875444" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -375,7 +372,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit (utils)" />
     <MESSAGE value="TD 1 - Homogeneous coordinates, &#10;linear transformations" />
-    <option name="LAST_COMMIT_MESSAGE" value="TD 1 - Homogeneous coordinates, &#10;linear transformations" />
+    <MESSAGE value="TD 2 data - Curve interpolation&#10;&#10;Add TD2 data&#10;Reorganize project into different packages for each TD" />
+    <MESSAGE value="Reorganize project into different packages for each TD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganize project into different packages for each TD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,6 +611,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD2/Transformation_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
