@@ -12,8 +12,14 @@ public class LinearInterpolation extends Interpolation {
 		super(frame);
 	}
 	
-	public void interpolate() {	
-		//throw new Error("To be completed: TD1");
+	public void interpolate() {
+	    for (int i=1; i<points.length; i++){
+	        drawSegment(points[i-1], points[i]);
+        }
+        for (Point_2 p : points) {
+            drawPoint(p);
+        }
+
 	}
 	
 }

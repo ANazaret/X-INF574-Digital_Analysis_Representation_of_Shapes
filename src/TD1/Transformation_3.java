@@ -96,9 +96,7 @@ public class Transformation_3 {
     }
 
 
-    /**
-     * Return a rotation of an angle theta, around Z axis
-     */
+
     public static Transformation_3 rotationRodrigues(double theta, Vector_3 axis) {
         double[][] identity_ = {{1., 0., 0., 0.},
                 {0., 1., 0., 0.},

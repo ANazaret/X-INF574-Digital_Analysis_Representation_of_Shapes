@@ -180,4 +180,7 @@ public class Draw extends PApplet {
 		  this.setInterpolationMethod();
 	  }
 
+	public static void main(String args[]) {
+		PApplet.main(new String[]{"TD2.Draw"});
+	}
 }
