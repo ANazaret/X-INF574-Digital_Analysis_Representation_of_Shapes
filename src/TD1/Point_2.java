@@ -1,3 +1,5 @@
+package TD1;
+
 /**
  * A class for representing Points in 2D (with floating points coordinates)
  *
@@ -111,7 +113,7 @@ public class Point_2 {
 		  Point_2 p = (Point_2) o;
 		  return this.x==p.getCartesian(0) && this.y==p.getCartesian(1); 
 	  }
-	throw new RuntimeException ("Comparing Point_2 with object of type " + o.getClass());  	
+	throw new RuntimeException ("Comparing TD1.TD2.Point_2 with object of type " + o.getClass());
   }
 
   /**

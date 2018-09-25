@@ -1,3 +1,5 @@
+package TD1;
+
 public class Vector_2 {
   public double x,y;
 
@@ -13,7 +15,7 @@ public class Vector_2 {
 	  	this.y=coordinates[1];
   }
 
-  public Vector_2(Point_2 a, Point_2 b) { 
+  public Vector_2(Point_2 a, Point_2 b) {
 	  	this.x=b.getX()-a.getX(); 
 	  	this.y=b.getY()-a.getY(); 
   }

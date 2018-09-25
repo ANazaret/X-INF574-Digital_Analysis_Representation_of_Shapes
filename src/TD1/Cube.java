@@ -1,6 +1,6 @@
-import java.awt.Color;
+package TD1;
 
-import processing.core.PApplet;
+import java.awt.Color;
 
 public class Cube extends AdjacencyGraph {
 

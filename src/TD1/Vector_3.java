@@ -1,3 +1,5 @@
+package TD1;
+
 public class Vector_3 extends Vector_2 {
   public double z;
 
@@ -15,7 +17,7 @@ public class Vector_3 extends Vector_2 {
 	  	this.z=coordinates[2];
   }
 
-  public Vector_3(Point_3 a, Point_3 b) { 
+  public Vector_3(Point_3 a, Point_3 b) {
   	this.x=b.getX()-a.getX(); 
   	this.y=b.getY()-a.getY(); 
   	this.z=b.getZ()-a.getZ(); 

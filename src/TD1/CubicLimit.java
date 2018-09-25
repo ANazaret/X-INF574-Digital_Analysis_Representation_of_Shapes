@@ -1,3 +1,5 @@
+package TD1;
+
 import processing.core.PApplet;
 
 /**
@@ -36,7 +38,7 @@ public class CubicLimit extends PApplet {
 
         // do not change the code below
         /** the skeleton of a 3D cube to transform and animate */
-        //Cube cube = this.animatingCube(30);
+        //TD1.Cube cube = this.animatingCube(30);
         Cube cube=this.rotatingCube(80); // remove comment to test this function
         cube.transformVertices(this.transformation);
         this.renderer.draw(cube);
@@ -66,7 +68,7 @@ public class CubicLimit extends PApplet {
 
         Point_3[] points = new Point_3[cube.n];
         for (int i = 0; i < cube.n; i++) {
-            points[i] = cube.getVertex(i).toPoint3D(); // store the vertices of the cube as Point_3 (cartesian coordinates)
+            points[i] = cube.getVertex(i).toPoint3D(); // store the vertices of the cube as TD1.TD2.Point_3 (cartesian coordinates)
         }
 
         bar.barycenter(points);
@@ -87,7 +89,7 @@ public class CubicLimit extends PApplet {
      * For running the PApplet as Java application
      */
     public static void main(String args[]) {
-        PApplet.main(new String[]{"CubicLimit"});
+        PApplet.main(new String[]{"TD1.CubicLimit"});
     }
 
 }
