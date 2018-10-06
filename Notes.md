@@ -53,11 +53,51 @@ Given differentiable $f$, unique curve (up to rigid motion) whose signed curvatu
 
 
 
-s = dy/dx
 
-dx^2 + s^2*dx^2 = 1600
 
-dx^2 (1+s^2) = 1600
+# Lecture 3 - Bezier
+
+
+
+### 1) de Casteljau algorithm
+
+##### Recursive definition $\left\{ \begin{array}{} b_i^{(0)} (t) = b_i  \\ b_i^{(r)} = (1-t) b_i^{(r-1)} + t b_{i+1}^{(r-1)}     \end{array} \right.$
+
+Affinely invariant for one given curve : $ratio \left( b_{i}^{(r)}, b_{i}^{(r+1)}, b_{i+1}^{(r)}  \right) = \frac{t}{1-t}$ where $ratio(a,b,c) = \frac{vol_1(a,b)}{vol_1(b,c)}$
+
+#### For $n+1$ points : the final curve is $b_0^{(n)} (t)$
+
+
+
+
+
+### 2) Bernstein polynomials
+
+$ B^n_i (t) := \left( \begin{array}{} n \\ i  \end{array} \right) t^i(1-t)^{n-i} $   >= 0
+
+$\sum _i ^{n} B_i^n(t) = 1$     (Sum = 1 thus can be use as homogeneous coordinates system)
+
+$B_i^{n+1}(t) = (1-t)B_i^n(t) + tB_{i-1}^n(t) $ 
+
+#### Bezier curve : $b_i^{(r)} (t)  =  \sum_{j=0}^r b_{i+j} \cdot B_j^r(t)$
+
+#### Final curve : $b_0^{(n)}(t) = \sum_{j=0}^n b_{j} \cdot B_j^n(t) $
+
+The $B_j^n(t)$ are **barycentric coordinates** ==> Affinely invariant : $p=ub_0 + vb_1 + wb_2  \Rightarrow \phi(p)=u\phi(b_0) + v\phi(b_1) + w\phi(b_2) $ for any affine transformation $\phi$ 
+
+
+
+### 3) Derivative 
+
+$\frac{d}{dt}b_0^{(n)}(t) = \sum_{j=0}^{n-1} (b_{j+1} - b_j) \cdot B_j^{n-1}(t) $
+
+
+
+
+
+
+
+
 
 
 
