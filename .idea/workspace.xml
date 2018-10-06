@@ -16,7 +16,7 @@
     <session id="1382404744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -37,14 +37,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3506" />
-          <entry key="txt" value="309" />
+          <entry key="java" value="3507" />
+          <entry key="txt" value="339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3506" />
-          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="JAVA" value="3507" />
+          <entry key="PLAIN_TEXT" value="339" />
         </counts>
       </usages-collector>
     </session>
@@ -85,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/TD2/HermiteSplineInterpolation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -242,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537953081063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537953083735" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/core.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -327,7 +327,7 @@
       <updated>1537273038668</updated>
       <workItem from="1537273041931" duration="10328000" />
       <workItem from="1537871374170" duration="13492000" />
-      <workItem from="1537943709567" duration="4743000" />
+      <workItem from="1537943709567" duration="4768000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit (utils)">
       <created>1537871841474</created>
@@ -385,15 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537913461132</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TD 2 - Add hermite interpolation">
+      <created>1537953107360</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537953107360</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28563000" />
+    <option name="totallyTimeSpent" value="28588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -408,7 +414,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32740214" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34341636" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.34341636" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -438,7 +444,8 @@
     <MESSAGE value="Reorganize project into different packages for each TD" />
     <MESSAGE value="TD 2 Files - Curve interpolation" />
     <MESSAGE value="TD 2 - First part" />
-    <option name="LAST_COMMIT_MESSAGE" value="TD 2 - First part" />
+    <MESSAGE value="TD 2 - Add hermite interpolation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TD 2 - Add hermite interpolation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../libs/Jama-1.0.2.jar!/Jama/CholeskyDecomposition.class">
@@ -669,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/src/TD2/HermiteSplineInterpolation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
         </state>
       </provider>
     </entry>
