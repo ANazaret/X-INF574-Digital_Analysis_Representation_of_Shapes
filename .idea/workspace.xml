@@ -2,45 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="TD 2 - Add hermite interpolation">
-      <change afterPath="$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3 - Bezier curves/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3 - Bezier curves/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3 - Bezier curves/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3 - Bezier curves/Lab3 - Bezier curves.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/AdjacencyGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/AdjacencyGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/ArcBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/ArcBall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Cube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/CubicLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/CubicLimit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Draw3DCube.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Draw3DCube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_d.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Quaternion.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Quaternion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Rotating3DCube.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Rotating3DCube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vec3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vec3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_d.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/CubicSplineInterpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/CubicSplineInterpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Draw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/HermiteSplineInterpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/HermiteSplineInterpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Interpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Interpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LagrangeInterpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/LagrangeInterpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LinearInterpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/LinearInterpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/NoInterpolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/NoInterpolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_d.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Transformation_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Transformation_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_d.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/TD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/AdjacencyGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/ArcBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Cube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/CubicLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Draw3DCube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Quaternion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Rotating3DCube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vec3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/CubicSplineInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/HermiteSplineInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Interpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LagrangeInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LinearInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/NoInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Transformation_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_d.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TD/src/ArcBall.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TD/src/Bezier.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TD/src/BezierPatchDeCasteljau.java" beforeDir="false" />
@@ -122,13 +118,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="37" />
-          <entry key="txt" value="51" />
+          <entry key="txt" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="37" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="PLAIN_TEXT" value="163" />
         </counts>
       </usages-collector>
     </session>
@@ -156,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="169" column="67" lean-forward="true" selection-start-line="169" selection-start-column="67" selection-end-line="169" selection-end-column="67" />
+            <state relative-caret-position="199">
+              <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -303,15 +299,6 @@
               <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab1 - Homogeneous coordinates and Quaternions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2 - Curve interpolation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2 - Curve interpolation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -323,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538867159221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538867363553" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab3 - Bezier curves" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -343,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Lab2 - Interpolation">
+  <component name="RunManager" selected="Application.Lab1 - Animation 3D cube">
     <configuration name="Lab2 - Interpolation" type="Applet" factoryName="Applet">
       <option name="MAIN_CLASS_NAME" value="Draw" />
       <module name="Lab2 - Curve interpolation" />
@@ -453,7 +440,7 @@
       <workItem from="1537871374170" duration="13492000" />
       <workItem from="1537943709567" duration="4768000" />
       <workItem from="1538846724796" duration="70000" />
-      <workItem from="1538865795361" duration="1242000" />
+      <workItem from="1538865795361" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit (utils)">
       <created>1537871841474</created>
@@ -525,15 +512,28 @@
       <option name="project" value="LOCAL" />
       <updated>1538866944006</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline">
+      <created>1538867140585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1538867140585</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline">
+      <created>1538867267053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1538867267053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29900000" />
+    <option name="totallyTimeSpent" value="30146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -580,7 +580,8 @@
     <MESSAGE value="TD 2 - First part" />
     <MESSAGE value="TD 2 - Add hermite interpolation" />
     <MESSAGE value="Lab1 - Homogeneous coordinates, quaternions, linear transformations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1 - Homogeneous coordinates, quaternions, linear transformations" />
+    <MESSAGE value="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../libs/Jama-1.0.2.jar!/Jama/CholeskyDecomposition.class" />
@@ -711,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="169" column="67" lean-forward="true" selection-start-line="169" selection-start-column="67" selection-end-line="169" selection-end-column="67" />
+        <state relative-caret-position="199">
+          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
         </state>
       </provider>
     </entry>

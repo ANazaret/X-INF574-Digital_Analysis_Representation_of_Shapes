@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" filepath="$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab3 - Bezier curvess.iml" filepath="$PROJECT_DIR$/.idea/Lab3 - Bezier curvess.iml" />
+    </modules>
+  </component>
+</project>
