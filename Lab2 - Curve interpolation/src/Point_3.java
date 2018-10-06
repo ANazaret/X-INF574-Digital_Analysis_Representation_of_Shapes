@@ -1,4 +1,4 @@
-package TD2;
+
 
 /**
  * A class for representing Points in 3D (with floating points coordinates)
