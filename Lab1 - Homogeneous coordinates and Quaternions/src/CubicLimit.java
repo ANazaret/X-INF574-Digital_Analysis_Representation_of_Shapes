@@ -1,5 +1,3 @@
-package TD1;
-
 import processing.core.PApplet;
 
 /**
@@ -89,7 +87,7 @@ public class CubicLimit extends PApplet {
      * For running the PApplet as Java application
      */
     public static void main(String args[]) {
-        PApplet.main(new String[]{"TD1.CubicLimit"});
+        PApplet.main(new String[]{"CubicLimit"});
     }
 
 }

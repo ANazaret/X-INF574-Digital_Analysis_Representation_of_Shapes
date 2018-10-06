@@ -1,4 +1,3 @@
-package TD1;
 
 /**
  * An implementation of a generic (undirected, possibly weighted) graph, 

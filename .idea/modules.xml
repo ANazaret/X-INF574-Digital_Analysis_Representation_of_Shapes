@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/Lab1 - Homogeneous coordinates and Quaternions.iml" filepath="$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/Lab1 - Homogeneous coordinates and Quaternions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" filepath="$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab3 - Bezier curves/Lab3 - Bezier curves.iml" filepath="$PROJECT_DIR$/Lab3 - Bezier curves/Lab3 - Bezier curves.iml" />
+    </modules>
+  </component>
+</project>

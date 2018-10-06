@@ -1,4 +1,4 @@
-package TD1;
+
 
 /**
  * A simple 3d viewer for visualizing cubes in 3D space

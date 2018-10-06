@@ -1,4 +1,3 @@
-package TD1;
 
 import java.awt.Color;
 

@@ -1,4 +1,4 @@
-package TD1;
+
 
 public class Vector_3 extends Vector_2 {
   public double z;
