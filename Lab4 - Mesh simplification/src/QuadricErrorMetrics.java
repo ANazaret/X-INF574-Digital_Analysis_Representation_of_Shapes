@@ -12,7 +12,6 @@ import Jcg.polyhedron.Polyhedron_3;
 import Jcg.polyhedron.Vertex;
 
 /**
- * @author Luca Castelli Aleardi (INF555, 2012)
  *
  */
 public class QuadricErrorMetrics extends MeshSimplification{
@@ -35,6 +34,11 @@ public class QuadricErrorMetrics extends MeshSimplification{
 	 */
 	boolean isLegal(Halfedge<Point_3> h){
 		throw new Error("To be completed");
+	}
+
+	@Override
+	protected Point_3 getNewPoint(Halfedge<Point_3> h) {
+		return null;
 	}
 
 }

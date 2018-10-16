@@ -1,9 +1,12 @@
 import Jcg.geometry.Point_3;
+import Jcg.geometry.Vector_3;
 import Jcg.polyhedron.*;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Abstract class defining methods for performing mesh simplification (via incremental decimation)
- * @author Luca Castelli Aleardi
  *
  */
 public abstract class MeshSimplification {
@@ -28,8 +31,10 @@ public abstract class MeshSimplification {
 		System.out.print("Performing edge collapse...");
 		if(this.polyhedron3D==null || e==null)
 			return;
-		
-		// retrieve the cells incident to edge e
+
+        Point_3 newPoint = getNewPoint(e);
+
+        // retrieve the cells incident to edge e
 		Face<Point_3> f1=e.getFace();
 		Face<Point_3> f2=e.getOpposite().getFace();
 		Vertex<Point_3> u=e.getOpposite().getVertex();
@@ -56,7 +61,7 @@ public abstract class MeshSimplification {
 			pEdge=pEdge.getNext().getOpposite();
 		}
 		
-		Point_3 newPoint=new Point_3(u.getPoint()); // compute new point location
+
 		u.setPoint(newPoint);
 		
 		// remove old cells: 2 faces, 1 vertex, 6 halfedges
@@ -71,5 +76,73 @@ public abstract class MeshSimplification {
 		this.polyhedron3D.halfedges.remove(e.opposite.prev);
 		System.out.println("done");
 	}
+
+
+	/**
+	 * Check whether a given halfedge (u -> v) can be contracted
+	 *
+	 * See : https://stackoverflow.com/questions/27049163/mesh-simplification-edge-collapse-conditions
+	 */
+	boolean isLegal(Halfedge<Point_3> h) {
+		// We need to check that triangle connected to v having are not flipped after the contraction
+		Point_3 u = getNewPoint(h);
+		Point_3 v = h.vertex.getPoint();
+
+
+		Halfedge<Point_3> triangleToV = h.next.opposite;
+		while (triangleToV != h) {
+			Vector_3 crossProduct = ((Vector_3) v.minus(triangleToV.prev.vertex.getPoint())).crossProduct(
+					triangleToV.next.vertex
+							.getPoint()
+							.minus(triangleToV.prev.vertex.getPoint())
+			);
+			Vector_3 crossProduct2 = ((Vector_3) u.minus(triangleToV.prev.vertex.getPoint())).crossProduct(
+					triangleToV.next.vertex
+							.getPoint()
+							.minus(triangleToV.prev.vertex.getPoint())
+			);
+
+			if (crossProduct.innerProduct(crossProduct2).floatValue() < 0f){
+				System.out.println("Illegal edge : Flip");
+				return false;
+			}
+
+			triangleToV = triangleToV.next.opposite;
+
+		}
+
+		// We also need to check that we do not turn two triangles into only one
+		Set<Integer> neighborsU = new HashSet<>();
+		Set<Integer> neighborsV = new HashSet<>();
+
+		triangleToV = h.next.opposite;
+		while (triangleToV != h) {
+			neighborsV.add(triangleToV.opposite.vertex.index);
+			triangleToV = triangleToV.next.opposite;
+		}
+
+		Halfedge<Point_3> triangleToU = h.opposite.next.opposite;
+		while (triangleToU != h.opposite) {
+			neighborsU.add(triangleToU.opposite.vertex.index);
+			triangleToU = triangleToU.next.opposite;
+		}
+
+		int commons = 0;
+		for(int x : neighborsU){
+			if (neighborsV.contains(x)){
+				commons++;
+			}
+		}
+
+		if (commons > 2){
+			System.out.println("Illegal edge : Two many common neighbors");
+			return false;
+		}
+
+
+		return true;
+	}
+
+	protected abstract Point_3 getNewPoint(Halfedge<Point_3> h);
 
 }
