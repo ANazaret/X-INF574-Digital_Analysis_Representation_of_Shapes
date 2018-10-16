@@ -87,9 +87,29 @@ The $B_j^n(t)$ are **barycentric coordinates** ==> Affinely invariant : $p=ub_0 
 
 
 
+Efficient eval : $x_0 = \binom{n}{0} b_0t^0 $ then $x_{i} =  (1-t) \cdot x_{i-1} + \binom{n}{i}t^ib_i$  and $b^n(t) = x_n$
+
+
+
+
+
+
+
+
+
+
+
+$
+
+
+
 ### 3) Derivative 
 
-$\frac{d}{dt}b_0^{(n)}(t) = \sum_{j=0}^{n-1} (b_{j+1} - b_j) \cdot B_j^{n-1}(t) $
+#### $\frac{d}{dt}b_0^{(n)}(t) = \sum_{j=0}^{n-1} (b_{j+1} - b_j) \cdot B_j^{n-1}(t) = n \cdot \left[ b_1^{n-1} -  b_0^{n-1}  \right]$
+
+
+
+
 
 
 

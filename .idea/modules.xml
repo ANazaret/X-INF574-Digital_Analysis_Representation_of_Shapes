@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/Lab1 - Homogeneous coordinates and Quaternions.iml" filepath="$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/Lab1 - Homogeneous coordinates and Quaternions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" filepath="$PROJECT_DIR$/Lab2 - Curve interpolation/Lab2 - Curve interpolation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab3 - Bezier curves/Lab3 - Bezier curves.iml" filepath="$PROJECT_DIR$/Lab3 - Bezier curves/Lab3 - Bezier curves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab4 - Mesh simplification/Lab4 - Mesh simplification.iml" filepath="$PROJECT_DIR$/Lab4 - Mesh simplification/Lab4 - Mesh simplification.iml" />
     </modules>
   </component>
 </project>

@@ -1,53 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="TD 2 - Add hermite interpolation">
+    <list default="true" id="bef8e8f8-8030-4b6e-bb02-391b5e323689" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab4 - Mesh simplification/Lab4 - Mesh simplification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/TD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/AdjacencyGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/ArcBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Cube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/CubicLimit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Draw3DCube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Point_d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Quaternion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Rotating3DCube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Transformation_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vec3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD1/Vector_d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/CubicSplineInterpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Draw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/HermiteSplineInterpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Interpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LagrangeInterpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/LinearInterpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/NoInterpolation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Point_d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Transformation_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/out/production/TD/TD2/Vector_d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/ArcBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/Bezier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/BezierPatchDeCasteljau.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/BezierPatchTensorProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/Curve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/DrawCurve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/DrawSurface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/Paraboloid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/RationalBezier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/Surface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD/src/Transformation_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,36 +53,37 @@
     <session id="1144231557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="14" />
-          <entry key="md" value="1" />
+          <entry key="java" value="17" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="14" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="17" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37" />
-          <entry key="txt" value="163" />
+          <entry key="java" value="67" />
+          <entry key="txt" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37" />
-          <entry key="PLAIN_TEXT" value="163" />
+          <entry key="JAVA" value="67" />
+          <entry key="PLAIN_TEXT" value="294" />
         </counts>
       </usages-collector>
     </session>
@@ -132,44 +91,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/ArcBall.java">
+        <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="928">
+              <caret line="171" column="67" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/CubicSplineInterpolation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <entry file="file://$PROJECT_DIR$/Notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java">
+        <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/MeshViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+            <state relative-caret-position="624">
+              <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/CubicLimit.java">
+        <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/SurfaceMesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+            <state relative-caret-position="-714">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Draw3DCube.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/QuadricErrorMetrics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -194,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Transformation_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1025">
+            <state relative-caret-position="153">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -203,11 +170,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Rotating3DCube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="2686">
               <caret line="158" selection-start-line="158" selection-end-line="158" />
               <folding>
                 <element signature="e#5493#5494#0" expanded="true" />
-                <element signature="e#5557#5558#0" expanded="true" />
+                <element signature="e#5553#5554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -271,6 +238,7 @@
         <option value="$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Rotating3DCube.java" />
         <option value="$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/CubicLimit.java" />
         <option value="$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java" />
+        <option value="$PROJECT_DIR$/Lab4 - Mesh simplification/src/MeshViewer.java" />
       </list>
     </option>
   </component>
@@ -281,8 +249,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1255" />
-    <option name="y" value="-21" />
+    <option name="x" value="-1086" />
+    <option name="y" value="-14" />
     <option name="width" value="3864" />
     <option name="height" value="2124" />
   </component>
@@ -292,28 +260,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab1 - Homogeneous coordinates and Quaternions" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab4 - Mesh simplification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4 - Mesh simplification" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="X-INF574-Digital_Analysis_Representation_of_Shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4 - Mesh simplification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538867363553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539705721330" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab3 - Bezier curves" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/Jama-1.0.2.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -330,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lab1 - Animation 3D cube">
+  <component name="RunManager" selected="Application.LAb4">
     <configuration name="Lab2 - Interpolation" type="Applet" factoryName="Applet">
       <option name="MAIN_CLASS_NAME" value="Draw" />
       <module name="Lab2 - Curve interpolation" />
@@ -348,6 +326,20 @@
     <configuration name="Lab3 - Bezier 3D" type="Applet" factoryName="Applet">
       <option name="MAIN_CLASS_NAME" value="DrawSurface" />
       <module name="Lab3 - Bezier curves" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4" type="Applet" factoryName="Applet">
+      <option name="MAIN_CLASS_NAME" value="MeshViewer" />
+      <module name="Lab4 - Mesh simplification" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LAb4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MeshViewer" />
+      <module name="Lab4 - Mesh simplification" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -414,9 +406,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Applet.Lab4" />
       <item itemvalue="Applet.Lab2 - Interpolation" />
       <item itemvalue="Applet.Lab3 - Bezier 3D" />
       <item itemvalue="Applet.Lab3 - Bezier 2D" />
+      <item itemvalue="Application.LAb4" />
       <item itemvalue="Application.Lab1 - 3D cube" />
       <item itemvalue="Application.Lab1 - Animation 3D cube" />
     </list>
@@ -440,7 +434,8 @@
       <workItem from="1537871374170" duration="13492000" />
       <workItem from="1537943709567" duration="4768000" />
       <workItem from="1538846724796" duration="70000" />
-      <workItem from="1538865795361" duration="1488000" />
+      <workItem from="1538865795361" duration="1665000" />
+      <workItem from="1539704814541" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit (utils)">
       <created>1537871841474</created>
@@ -526,21 +521,29 @@
       <option name="project" value="LOCAL" />
       <updated>1538867267053</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lab3 - Bezier curves&#10;&#10;- 2D Bezier curves&#10;- 3D Bezier curves (Tensor product surfaces)&#10;- de Casteljau algorithm&#10;- Bernstein polynomials">
+      <created>1538867457422</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1538867457422</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30146000" />
+    <option name="totallyTimeSpent" value="31078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19761431" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19920477" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49959514" weight="0.3291815" />
@@ -548,12 +551,12 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32740214" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.34321374" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34321374" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32917318" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -578,13 +581,13 @@
     <MESSAGE value="Reorganize project into different packages for each TD" />
     <MESSAGE value="TD 2 Files - Curve interpolation" />
     <MESSAGE value="TD 2 - First part" />
-    <MESSAGE value="TD 2 - Add hermite interpolation" />
     <MESSAGE value="Lab1 - Homogeneous coordinates, quaternions, linear transformations" />
     <MESSAGE value="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab2 - Curve interpolation&#10;&#10;- Linear Interpolation&#10;- Lagrange Interpolation&#10;- Cubic Spline&#10;- Hermite Spline" />
+    <MESSAGE value="TD 2 - Add hermite interpolation" />
+    <MESSAGE value="Lab3 - Bezier curves&#10;&#10;- 2D Bezier curves&#10;- 3D Bezier curves (Tensor product surfaces)&#10;- de Casteljau algorithm&#10;- Bernstein polynomials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab3 - Bezier curves&#10;&#10;- 2D Bezier curves&#10;- 3D Bezier curves (Tensor product surfaces)&#10;- de Casteljau algorithm&#10;- Bernstein polynomials" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../libs/Jama-1.0.2.jar!/Jama/CholeskyDecomposition.class" />
     <entry file="file://$PROJECT_DIR$/src/TD1/test.java" />
     <entry file="jar://$PROJECT_DIR$/../libs/core.jar!/processing/core/PConstants.class" />
     <entry file="jar://$PROJECT_DIR$/../libs/Jama-1.0.2.jar!/Jama/util/Maths.class" />
@@ -617,21 +620,7 @@
     <entry file="file://$PROJECT_DIR$/src/TD2/Point_3.java" />
     <entry file="file://$PROJECT_DIR$/src/TD2/CubicSplineInterpolation.java" />
     <entry file="file://$PROJECT_DIR$/src/TD2/HermiteSplineInterpolation.java" />
-    <entry file="file://$PROJECT_DIR$/TD/TD.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TD/TD.iml" />
     <entry file="file://$PROJECT_DIR$/Lab3 - Bezier curves/src/DrawCurve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -655,6 +644,27 @@
     <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Cube.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/ArcBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/CubicSplineInterpolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/CubicLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Draw3DCube.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -671,49 +681,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Rotating3DCube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="e#5493#5494#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Transformation_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1025">
+        <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/CubicLimit.java">
+    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/Rotating3DCube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1 - Homogeneous coordinates and Quaternions/src/ArcBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/CubicSplineInterpolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="2686">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#5493#5494#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab2 - Curve interpolation/src/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+        <state relative-caret-position="928">
+          <caret line="171" column="67" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/SurfaceMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/QuadricErrorMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4 - Mesh simplification/src/MeshViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -746,7 +767,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Image</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -770,12 +791,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Lab1 - Homogeneous coordinates and Quaternions</last-edited>
+          <last-edited>Lab4 - Mesh simplification</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
