@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="TC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/TC.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Jcg.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Jama-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

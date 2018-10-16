@@ -1,6 +1,8 @@
 import Jcg.geometry.*;
 import Jcg.polyhedron.*;
 
+import java.util.Random;
+
 /**
  * @author Luca Castelli Aleardi (INF555, 2012)
  *
@@ -16,15 +18,25 @@ public class HalfedgeContraction extends MeshSimplification {
 	 * Simply select at random edges to be contracted
 	 */
 	public void simplify() {
-		System.out.println("To be completed");		
-	}
+		int halfedgeId;
+		do {
+            halfedgeId = (int) (Math.random() * polyhedron3D.sizeOfHalfedges());
+        } while (!isLegal(polyhedron3D.halfedges.get(halfedgeId)));
+
+		//halfedgeId = 0;
+		Halfedge<Point_3> halfedge = polyhedron3D.halfedges.get(halfedgeId);
+        edgeCollapse(halfedge);
+    }
 	
 	
 	/**
 	 * Check whether a given halfedge can be contracted
+     *
+     * I guess it can be contracted iff it has an opposite halfedge
+     * What about the face ??
 	 */
 	boolean isLegal(Halfedge<Point_3> h){
-		throw new Error("To be completed");
+	    return h.opposite != null;
 	}
 	
 }
